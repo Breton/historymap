@@ -1,0 +1,68 @@
+extraction types:
+
+ - article
+   type:
+
+	Type of object (always article).
+
+
+   title
+   text
+   html
+   date or estimatedDate
+   author
+   authorUrl
+   discussion
+   humanLanguage
+   numPages
+   nextPages (array of urls of all the article pages)
+   publisherRegion
+   publisherCountry
+   pageUrl
+   resolvedPageUrl
+   tags      analysis of content for tag extraction-- keyword extraction!
+	label
+	count
+	score
+	rdfTypes  
+	type
+	uri
+   images 
+	url
+	title
+	height
+	weidth
+	naturalHeight
+	naturalWidth
+	primary
+	diffbotUri
+
+	videos
+		url
+		naturalHeight
+		naturalWidth
+		primary
+		diffboturi
+
+	sentiment
+	links
+		Returns a top-level object (links) containing all hyperlinks found on the page.
+	meta
+		Returns a top-level object (meta) containing the full contents of page meta tags, including sub-arrays for OpenGraph tags, Twitter Card metadata, schema.org microdata, and -- if available -- oEmbed metadata.
+	querystring
+		Returns any key/value pairs present in the URL querystring. Items without a discrete value will be returned as true.
+
+
+
+
+
+collection of articles
+list of articles
+
+
+video
+list of videos
+photo
+photo gallery
+discussion
+product
