@@ -1,0 +1,16 @@
+I want to map out what I know, and things I'd like to learn about in geography and history.
+
+I am starting this out by building a carefully formatted markdown document that I can potentially extract data from, to create an interactive map and timeline.
+
+Software I am using to help is:
+
+ - [markup.rocks](http://markup.rocks) for in-browser conversion
+ - [pandoc](http://pandoc.org) for offline conversion
+ - [visjs](http://visjs.org) for timelines
+
+relevant files: 
+
+[subjects.mdown]
+[types.mdown]
+[places.mdown]
+[events.mdown

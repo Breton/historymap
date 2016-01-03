@@ -1,0 +1,50 @@
+a date is
+: - one of these properties:
+  - circa with iso date or iso date range (extended year syntax)
+  - date with iso date or iso date range (extended year syntax)
+  - era name
+  - event name
+
+a title is
+: taken from markdown heading, limited to ~20 characters
+    
+a summary is
+: markdown limited to 140 characters with reference links
+
+a description is
+: markdown unlimited with reference links
+    
+a location is
+: - name
+  - geocoordinate, a coordinate list polygon or ISO 3166 placename
+  - date
+
+an event is
+: - title
+  - date
+  - summary
+  - description
+  - a location which is either a place name or geocoordinate
+  - subjects: a list of subjects this event is related to
+  - people: a list of people this event is related to
+
+an era is
+: - name
+  - date
+  - summary
+  - description
+  - subjects
+  - people
+
+a artefact is an object or landmark
+: - name
+  - date
+  - locations
+  - summary
+  - description
+
+a person has
+: - a name
+  - a time
+
+

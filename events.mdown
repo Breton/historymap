@@ -1,0 +1,35 @@
+
+# epic of gilgamesh
+
+type
+: artefact
+
+era
+: [Third Dynasty of Ur]
+
+place
+: Mesopotamia
+
+summary
+: The Epic of Gilgamesh is an epic poem from ancient [Mesopotamia]. Dating from the [Third Dynasty of Ur]
+
+detail
+: lots of stuff
+
+
+# Third Dynasty of Ur
+  
+type
+: era
+
+circa 
+: [2112 bce to 2004 bce](#date:-2112/-2004)
+
+summary
+: The Third Dynasty of Ur, also known as the Neo-Sumerian Empire, refers to both a 21st to 20th century BC (short chronology timeline) Sumerian ruling dynasty based in the city of [Ur]
+
+
+
+
+
+
