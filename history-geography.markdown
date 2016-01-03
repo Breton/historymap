@@ -1,11 +1,13 @@
- - subject
- - event
- - place
- - landmark
- - person
+I want to map out what I know, and things I'd like to learn about in geography and history.
 
+I am starting this out by building a carefully formatted markdown document that I can potentially extract data from, to create an interactive map and timeline.
 
-# historical/geographical events to map
+Software I am using to help is:
+
+ - [markup.rocks](http://markup.rocks) for in-browser conversion
+ - [pandoc](http://pandoc.org) for offline conversion
+ - [visjs](http://visjs.org) for timelines
+
 
 subjects
 : - gilgamesh
@@ -42,42 +44,50 @@ subjects
   - 1990s
   - 2000s
 
-a time is
-  circa or date property
-  approximate or absolute
-  era
-  or other d
+a date is
+: - one of these properties:
+  - circa with iso date or iso date range (extended year syntax)
+  - date with iso date or iso date range (extended year syntax)
+  - era name
+  - event name
 
+a title is
+: taken from markdown heading, limited to ~20 characters
+    
+a summary is
+: markdown limited to 140 characters with reference links
 
-an event has
+a description is
+: markdown unlimited with reference links
+    
+a location is
+: - name
+  - geocoordinate, a coordinate list polygon or ISO 3166 placename
+  - date
+
+an event is
 : - title
-  - short description
-  - "date" or "circa" a time which is a range or a singular date
-  - markdown long description with references
+  - date
+  - summary
+  - description
   - a location which is either a place name or geocoordinate
   - subjects: a list of subjects this event is related to
   - people: a list of people this event is related to
 
-an era
-: - title
-  - date or circa
-  - short description
-  - long description
+an era is
+: - name
+  - date
+  - summary
+  - description
   - subjects
   - people
 
-
-a place has
-: - a name
-  - a geocoordinate or kml region or  ISO 3166
-  - a time range
-
-a artefact has (is an object or landmark)
-: - a name
-  - a time
-  - a place or places
-  - a short description
-  - markdown long description with references
+a artefact is an object or landmark
+: - name
+  - date
+  - locations
+  - summary
+  - description
 
 a person has
 : - a name
@@ -85,18 +95,20 @@ a person has
 
 
 
-
-
 # epic of gilgamesh
 
 type
 : artefact
+
 era
 : [Third Dynasty of Ur]
+
 place
 : Mesopotamia
+
 summary
 : The Epic of Gilgamesh is an epic poem from ancient [Mesopotamia]. Dating from the [Third Dynasty of Ur]
+
 detail
 : lots of stuff
 
@@ -105,8 +117,10 @@ detail
   
 type
 : era
+
 circa 
-: -2112/—2004
+: [2112 bce to 2004 bce](#date:-2112/-2004)
+
 summary
 : The Third Dynasty of Ur, also known as the Neo-Sumerian Empire, refers to both a 21st to 20th century BC (short chronology timeline) Sumerian ruling dynasty based in the city of [Ur]
 
@@ -115,15 +129,18 @@ summary
 
 type
 : place
+
 location
 : 30°57′45″N 46°06′11″E
+
 circa
-: -3800/-500
+: [3800 BC to 500 BC](#date:-3800/-500)
 
 # Mesopotamia
 
 type
 : place
+
 
 
 
