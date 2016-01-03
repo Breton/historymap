@@ -1,0 +1,81 @@
+<h1 id="property-types">property types</h1>
+<dl>
+<dt>a date is a link to one of</dt>
+<dd><ul>
+<li>&quot;circa&quot; with isodate or isodate range (extended year syntax)</li>
+<li>&quot;date&quot; with isodate or isodate range (extended year syntax)</li>
+<li>&quot;era&quot; with name</li>
+<li>&quot;event&quot; with name</li>
+</ul>
+</dd>
+</dl>
+<p>for example: <a href="date:-2112/-2004">2112 BC to 2004 BC</a></p>
+<dl>
+<dt>a name is</dt>
+<dd>taken from markdown heading, limited to ~20 characters
+</dd>
+<dt>a summary is</dt>
+<dd>markdown limited to 140 characters with reference links
+</dd>
+<dt>a description is</dt>
+<dd>markdown unlimited with reference links
+</dd>
+</dl>
+<h1 id="object-types">object types</h1>
+<dl>
+<dt>a place is</dt>
+<dd><ul>
+<li>name</li>
+<li>location as geo uri, geojson or ISO 3166 placename as link, e.g.: <a href="geo:30.9625,46.103056">30°57′45″N 46°06′11″E</a></li>
+<li>date</li>
+</ul>
+</dd>
+<dt>an event is</dt>
+<dd><ul>
+<li>name</li>
+<li>dates</li>
+<li>places</li>
+<li>summary</li>
+<li>description</li>
+<li>subjects</li>
+<li>people</li>
+</ul>
+</dd>
+<dt>an era is</dt>
+<dd><ul>
+<li>name</li>
+<li>date</li>
+<li>summary</li>
+<li>description</li>
+<li>subjects</li>
+<li>people</li>
+</ul>
+</dd>
+<dt>an artefact is an object or landmark</dt>
+<dd><ul>
+<li>name</li>
+<li>dates</li>
+<li>places</li>
+<li>summary</li>
+<li>description</li>
+</ul>
+</dd>
+<dt>a person has</dt>
+<dd><ul>
+<li>name</li>
+<li>date</li>
+</ul>
+</dd>
+<dt>a subject is</dt>
+<dd><ul>
+<li>name</li>
+<li>dates</li>
+<li>places</li>
+<li>summary</li>
+<li>description</li>
+<li>events (reverse)</li>
+<li>people (reverse)</li>
+<li>artefacts (reverse)</li>
+</ul>
+</dd>
+</dl>

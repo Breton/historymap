@@ -1,16 +1,13 @@
 # Ur
 
-type
-: place
-
 location
-: 30°57′45″N 46°06′11″E
+: [30°57′45″N 46°06′11″E](geo:30.9625,46.103056)
 
 circa
-: [3800 BC to 500 BC](#date:-3800/-500)
+: [3800 BC to 500 BC](date:-3800/-500)
+
 
 # Mesopotamia
 
 type
 : place
-

@@ -1,11 +1,14 @@
-a date is
-: - one of these properties:
-  - circa with iso date or iso date range (extended year syntax)
-  - date with iso date or iso date range (extended year syntax)
-  - era name
-  - event name
+# property types
 
-a title is
+a date is a link to one of
+: - "circa" with isodate or isodate range (extended year syntax) 
+  - "date" with isodate or isodate range (extended year syntax)
+  - "era" with name
+  - "event" with name
+  
+for example: [2112 BC to 2004 BC](date:-2112/-2004) 
+
+a name is
 : taken from markdown heading, limited to ~20 characters
     
 a summary is
@@ -13,20 +16,22 @@ a summary is
 
 a description is
 : markdown unlimited with reference links
-    
-a location is
+
+# object types
+
+a place is
 : - name
-  - geocoordinate, a coordinate list polygon or ISO 3166 placename
+  - location as geo uri, geojson or ISO 3166 placename as link, e.g.: [30°57′45″N 46°06′11″E](geo:30.9625,46.103056)
   - date
 
 an event is
-: - title
-  - date
+: - name
+  - dates
+  - places
   - summary
   - description
-  - a location which is either a place name or geocoordinate
-  - subjects: a list of subjects this event is related to
-  - people: a list of people this event is related to
+  - subjects
+  - people
 
 an era is
 : - name
@@ -36,15 +41,24 @@ an era is
   - subjects
   - people
 
-a artefact is an object or landmark
+an artefact is an object or landmark
 : - name
-  - date
-  - locations
+  - dates
+  - places
   - summary
   - description
 
 a person has
-: - a name
-  - a time
+: - name
+  - date
 
+a subject is
+: - name
+  - dates
+  - places
+  - summary
+  - description
+  - events (reverse)
+  - people (reverse)
+  - artefacts (reverse)
 

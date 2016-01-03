@@ -1,9 +1,21 @@
 
+a subject is
+: - name
+  - dates
+  - places
+  - summary
+  - description
+  - events (reverse)
+  - people (reverse)
+  - artefacts (reverse)
+
+
 subjects
 : - gilgamesh
   - hammurabi
   - silk road
   - knight's templar
+  - arthurian legend
   - arabic numerals
   - library of alexandria
   - epic cycle/illiad
@@ -33,3 +45,24 @@ subjects
   - 1980s
   - 1990s
   - 2000s
+
+
+
+# epic of gilgamesh
+
+era
+: [Third Dynasty of Ur]
+
+place
+: [Mesopotamia]
+
+summary
+: The Epic of Gilgamesh is an epic poem from ancient [Mesopotamia]. Dating from the [Third Dynasty of Ur]
+
+detail
+: lots of stuff
+
+
+
+
+
