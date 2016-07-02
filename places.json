@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Earth",
+    "location": {
+      "title": "90°N 180°E to 90°S 180°W",
+      "geo": "M-180-90H180V90H-180Z"
+    },
+    "circa": {
+      "title": "4.543 billion years ago to 7 billion years from now",
+      "date": {
+        "start": "-454300000000",
+        "end": "7000000000"
+      }
+    }
+  },
+  {
+    "name": "Ur",
+    "location": {
+      "title": "30°57′45″N 46°06′11″E",
+      "geo": {
+        "lat": "30.9625",
+        "lon": "46.103056"
+      }
+    },
+    "circa": {
+      "title": "3800 BC to 500 BC",
+      "date": {
+        "start": "-3800",
+        "end": "-500"
+      }
+    }
+  },
+  {
+    "name": "Mesopotamia",
+    "type": "place"
+  }
+]

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>historymap</title>
+	<script src="jquery-1.10.1.min.js"></script>
+
+	<style type="text/css">
+		svg {border:1px solid black;}
+		.st0{fill:#E24D4D;stroke:#000000;}
+		.earth{fill:url(#earth);stroke:#000000;  }
+	</style>
+	<script async>
+
+
+		function addPath(pathdata,pathclass) {
+			//assume binding to svg with id vector
+			var el=document.createElementNS("http://www.w3.org/2000/svg", "path");
+			el.setAttribute("class",pathclass);
+			el.setAttribute("d",pathdata);
+			document.getElementById("vector").appendChild(el);
+		}
+
+		$.getJSON("places.json")
+		.then(function(data){
+			console.log(data);
+
+			addPath(data[0].location.geo, "earth");
+
+			// $("#vector").append(`<path class="st0" d="${data[0].location.geo}" />`)
+		})
+	</script>
+</head>
+<body>
+	
+
+
+
+<svg id="vector" width="800px" height="600px" viewBox="-800 -600 1600 1200" >
+<defs>
+  <pattern id="earth" patternUnits="userSpaceOnUse" width="360" height="180">
+    <image xlink:href="map2-a.png" x="0" y="0" width="360" height="180" />
+  </pattern>
+</defs>
+<path class="st0" d="M117,82.1h231.6c0,0,38,171.4,0,133.4S117,195.8,117,195.8V82.1z"/>
+
+</svg>
+
+
+</body>
+</html>

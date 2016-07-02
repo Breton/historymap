@@ -5,7 +5,8 @@ a date is a link to one of
   - "date" with isodate or isodate range (extended year syntax)
   - "era" with name
   - "event" with name
-  
+
+
 for example: [2112 BC to 2004 BC](date:-2112/-2004) 
 
 a name is

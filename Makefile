@@ -1,9 +1,15 @@
 
 MDOWN=$(wildcard *.mdown)
-HTML=$(MDOWN:.mdown=.html)
+HTML=$(MDOWN:.mdown=.inc.html)
+JSON=$(MDOWN:.mdown=.json)
 
-all: $(HTML)
+all: $(HTML) $(JSON) xoxo2json.js 
 
-%.html: %.mdown
+clean: 
+	rm $(HTML) $(JSON)
+
+%.inc.html: %.mdown
 	pandoc -o $@ $< 
 
+%.json: %.inc.html
+	node xoxo2json.js < $< > $@

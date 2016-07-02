@@ -1,3 +1,13 @@
+# Earth
+
+location
+: [90°N 180°E to 90°S 180°W](geo:M-180-90H180V90H-180Z)
+
+circa
+: [4.543 billion years ago to 7 billion years from now](date:-454300000000/7000000000)
+
+
+
 # Ur
 
 location

@@ -17,23 +17,37 @@ subjects
   - knight's templar
   - arthurian legend
   - arabic numerals
+  - ottoman empire
   - library of alexandria
   - epic cycle/illiad
   - alexander the great
   - londinium
   - baghdad/uruk
   - ashoka/buddha
+  - US states over time. The "midwest"
   - spain's muslim domination, relationship to the crusades and the inquisition
   - "dark ages"
-  - aldous huxley
+  - aldous huxley, julian huxley
+  - eugenics
   - the development and popularity of lsd
   - world war I and world war II
+  - Post world-war II american propoganda
   - photography
   - impressionism
   - modernism
-  - surriealism
+  - surrealism
+  - post modernism
   - communism
   - ayn rand
+  - greek art development and trade with egypt
+  - leonardo da vinci, machiavelli, "rennaisance"
+  - protocols of the jewish elders
+  - "the seven seas"
+  - Pirates
+  - h4 clock and grenwich observatory
+  - Ancient Greece / Aristotle
+  - development of mathematics, pythagoreans
+  - Development of law
   - 1900s
   - 1910s
   - 1920s
@@ -45,7 +59,6 @@ subjects
   - 1980s
   - 1990s
   - 2000s
-
 
 
 # epic of gilgamesh

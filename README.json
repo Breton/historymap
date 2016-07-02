@@ -1,0 +1,23 @@
+[
+  {
+    "name": "\n<li><a href=\"http://markup.rocks\">markup.rocks</a> for in-browser conversion</li>\n<li><a href=\"http://pandoc.org\">pandoc</a> for offline conversion</li>\n<li><a href=\"http://visjs.org\">visjs</a> for timelines</li>\n<li><a href=\"http://dmpop.github.io/mejiro/\">mejiro</a> this might be cool for inspiration</li>\n",
+    "object types": [
+      "eras",
+      "events",
+      "places",
+      "subjects",
+      "objects",
+      "landmarks",
+      "people",
+      "types"
+    ],
+    "field types": [
+      "date",
+      "geo",
+      "name",
+      "summary",
+      "description",
+      "image"
+    ]
+  }
+]

@@ -2,8 +2,33 @@ I want to map out what I know, and things I'd like to learn about in geography a
 
 I am starting this out by building a carefully formatted markdown document that I can potentially extract data from, to create an interactive map and timeline.
 
-Software I am using to help is:
+links I am using to help:
 
  - [markup.rocks](http://markup.rocks) for in-browser conversion
  - [pandoc](http://pandoc.org) for offline conversion
  - [visjs](http://visjs.org) for timelines
+ - [mejiro](http://dmpop.github.io/mejiro/) this might be cool for inspiration
+ - [thenmap](http://www.thenmap.net) this only seems to cover 20th century mostly, but cool
+ - [geojson](http://geojson.org) maybe this instead of the adhoc shit I am trying
+ - [topojson](https://github.com/mbostock/topojson) an extension to geojson that includes topology
+ - [horizontal history](http://waitbutwhy.com/2016/01/horizontal-history.html)
+ - [tile38 in memory geospatial DB](https://github.com/tidwall/tile38)
+
+
+object types
+: - eras
+  - events 
+  - places
+  - subjects
+  - objects
+  - landmarks
+  - people
+  - types
+
+field types
+: - date
+  - geo
+  - name
+  - summary
+  - description
+  - image

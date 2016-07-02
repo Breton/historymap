@@ -1,8 +1,5 @@
 # Third Dynasty of Ur
   
-type
-: era
-
 circa 
 : [2112 BC to 2004 BC](date:-2112/-2004)	
 

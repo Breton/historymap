@@ -1,0 +1,63 @@
+[
+  {
+    "name": "property types",
+    "a date is a link to one of": [
+      "\"circa\" with isodate or isodate range (extended year syntax)",
+      "\"date\" with isodate or isodate range (extended year syntax)",
+      "\"era\" with name",
+      "\"event\" with name"
+    ]
+  },
+  {
+    "name": "for example: <a href=\"date:-2112/-2004\">2112 BC to 2004 BC</a>",
+    "a name is": "taken from markdown heading, limited to ~20 characters",
+    "a summary is": "markdown limited to 140 characters with reference links",
+    "a description is": "markdown unlimited with reference links"
+  },
+  {
+    "name": "object types",
+    "a place is": [
+      "name",
+      "location as geo uri, geojson or ISO 3166 placename as link, e.g.: <a href=\"geo:30.9625,46.103056\">30°57′45″N 46°06′11″E</a>",
+      "date"
+    ],
+    "an event is": [
+      "name",
+      "dates",
+      "places",
+      "summary",
+      "description",
+      "subjects",
+      "people"
+    ],
+    "an era is": [
+      "name",
+      "date",
+      "summary",
+      "description",
+      "subjects",
+      "people"
+    ],
+    "an artefact is an object or landmark": [
+      "name",
+      "dates",
+      "places",
+      "summary",
+      "description"
+    ],
+    "a person has": [
+      "name",
+      "date"
+    ],
+    "a subject is": [
+      "name",
+      "dates",
+      "places",
+      "summary",
+      "description",
+      "events (reverse)",
+      "people (reverse)",
+      "artefacts (reverse)"
+    ]
+  }
+]
